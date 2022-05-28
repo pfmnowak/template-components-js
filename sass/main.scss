@@ -1,0 +1,40 @@
+/* Demo styles */
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background-color: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  color: black;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swipe-section {
+  background-color: rgb(9, 94, 66);
+  height: 600px;
+  width: 75%;
+  border: 3px solid black;
+  border-radius: 30px;
+}
+
+.swiper {
+  width: 50%;
+  height: 100%;
+  background-color: white;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
